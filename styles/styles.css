@@ -1,0 +1,126 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background-image: radial-gradient(circle at 50% 50%, #ffffff 0, #ffffff 12.5%, #fffafa 25%, #fdf1f2 37.5%, #fae7ea 50%, #f7dde3 62.5%, #f3d4de 75%, #efccdb 87.5%, #eac5d9 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fae7ea00;
+    margin: auto;
+    color: rgb(84, 53, 66);
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    left: 0px;
+    position: absolute;
+    color: rgb(181, 97, 133);
+}
+
+.texto > #imagen{
+    border-style: inset;
+    border-color: rgb(181, 97, 133);
+    border-width: 10px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 50px;
+    position: relative;
+    left: -20px;
+    height: 530px;
+    width: 530px;
+}
+
+.container{
+    display: flex;
+}
+
+.info{  
+    font-size: 30px;
+    top: 0px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    width: 200px;
+    margin-right: 70px;
+    color: rgb(181, 97, 133);
+}
+
+.contact{  
+    font-size: 30px;
+    display: block;
+    top: 0px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    width: 200px;
+    margin-right: 70px;
+    color: rgb(181, 97, 133);
+}
+
+.info > #svg{
+    padding: 15px;
+    border-style: inset;
+    width: fit-content;
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: rgb(181, 97, 133);
+    display: flex;
+}
+
+.info > #info{
+    font-size: 15px;
+}
+
+.contact > #svg{
+    padding: 15px;
+    border-style: inset;
+    width: fit-content;
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: rgb(181, 97, 133);
+    display: flex;
+}
+
+.contact > #info{
+    font-size: 15px;
+    position: relative;
+    top: 34px;
+}
+
+.button{
+    color: rgb(181, 97, 133);
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 5px rgb(141, 81, 106);
+    padding: 5px;
+}
+
+.contact a:hover{
+    color: white;
+    border-color: rgb(37, 22, 29);
+    background-color: rgb(181, 97, 133);
+}
+
+footer{
+    background-color: #fae7ea00;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: rgb(181, 97, 133);
+}
